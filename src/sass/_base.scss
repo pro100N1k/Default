@@ -1,0 +1,98 @@
+$baseFont : '';
+$baseColor: #000000;
+$subColor : #333333;
+$activeColor : #fca746;
+
+html {
+  font-family: $baseFont;
+  font-size: 10px;
+  background-color: #fff;
+  @media all and (max-width: 1200px) {
+    font-size: 8.5px;
+  }
+  @media all and (max-width: 1025px) {
+    font-size: 8px;
+  }
+  @media all and (max-width: 767px) {
+    font-size: 7px;
+  }
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.text {
+  h1 {
+
+  }
+  h2 {
+
+  }
+  h3 {
+
+  }
+  h4 {
+
+  }
+  h5 {
+
+  }
+  h6 {
+
+  }
+
+  a {
+    font-family: $baseFont;
+    color: $baseColor;
+    text-decoration: none;
+  }
+
+  span {
+
+  }
+
+  textarea {
+
+  }
+
+  b {
+    font-weight: bold;
+  }
+
+  i {
+    font-style: italic;
+  }
+
+  p {
+    font-family: $baseFont;
+  }
+
+  ul {
+
+  }
+
+  ol {
+
+  }
+
+  table {
+    thead {
+
+    }
+    tbody {
+
+    }
+    tr {
+      td {
+
+      }
+    }
+  }
+
+  input {
+
+  }
+}

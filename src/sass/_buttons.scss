@@ -1,4 +1,7 @@
-.button {
+.btn {
   display: inline-block;
+  font-family: $baseFont;
+  color: $baseColor;
+  border: none;
   outline: none;
 }
